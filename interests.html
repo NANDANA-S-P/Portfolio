@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandu portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="animate.css">
+
+  <style>
+    .fourthpage {
+      padding-top: 8%;
+
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proj.html">My projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="interests.html">Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="fourthpage">
+    <p class="explorer">Enthusiastic Explorer. . . . . . . . . . . . . .</p>
+
+    <div class="card" id="webcard">
+      <img src="kicweb.png" class="web">
+      <p>I have created a webpage with html and css and hosted on github</p>
+
+      <a href="https://nandana-s-p.github.io/marvel-designers.github.io/" class="buttton" id="kweb"
+        style="text-decoration:none; color:white">
+        <strong>View Task</strong></a>
+
+
+    </div>
+
+
+
+    <div class="card" id="mechcard">
+
+      <img src="kicmech.png" class="mech">
+      <p>I have created some 2D sketches, 3D designs of stamp and lampshade</p>
+
+      <a href="https://drive.google.com/file/d/1oW4Rq_wRXmMZ_XZqD_KNS3lD2FvSzRPx/view?usp=sharing" class="buttton"
+        id="kmech" style="text-decoration:none; color:white">
+        <strong>View Task</strong></a>
+
+    </div>
+
+    <div class="card" id="embeddedcard">
+      <img src="kicembedded.png" class="embedded">
+      <p>I have designed an automatic LED blinking circuit using 555 timer IC with KiCad</p>
+      <a href="https://drive.google.com/file/d/1Zre6iXS1GPgVvEOksiCn5WgZsucNLqWX/view?usp=sharing" class="buttton"
+        id="kembedded" style="text-decoration:none; color:white">
+        <strong>View Task</strong></a>
+    </div>
+
+    <div class="card">
+      <img src="kicapp.png" class="app">
+      <p>I have created a login page with react native. </p>
+      <a href="https://snack.expo.dev/@nandana_s_p/login_page_kic" class="buttton" id="kapp"
+        style="text-decoration:none; color:white">
+        <strong>View Task</strong>
+      </a>
+    </div>
+
+    <div class="reveal">
+
+
+      <div class="writing">
+        <p class="writer">Passionate writer . . . . . . . . . . . . . .</p>
+
+
+
+        <div class="card">
+          <img src="article.png" class="article">
+          <p class="scrabbletext">I am a member of scrabble. I write articles. I feel that writing is one of the best
+            ways to expresss our thoughts! </p>
+          <a href="https://www.instagram.com/p/CSEo8XOh2uv/?utm_source=ig_web_copy_link" class="buttton" id="karticle"
+            style="text-decoration:none; color:white">
+            <strong>View Article</strong></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal() {
+      var reveals = document.querySelectorAll('.reveal');
+
+      for (var i = 0; i < reveals.length; i++) {
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if (revealtop < windowheight - revealpoint) {
+          reveals[i].classList.add('active');
+        }
+        else {
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+  </script>
+
+</body>
+
+</html>
+
+</body>
+
+</html>

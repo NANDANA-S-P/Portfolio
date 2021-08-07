@@ -1,0 +1,417 @@
+.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: white;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  background: white;
+  color: black;
+}
+.navbar-brand {
+  color: white; /*portfolio*/
+}
+
+.navbar-toggler {
+  background-color: pink;
+}
+navbar-toggler-icon {
+  background-color: white;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/*FIRST PAGE*/
+
+.tags {
+  text-decoration: none;
+}
+.firstpage {
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  background: transparent;
+}
+
+#myname {
+  margin-bottom: 0;
+}
+.tagline {
+  margin-top: 0;
+}
+
+.myimage :hover {
+  transform: scale(1.1);
+}
+
+.thanku img {
+  width: 20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+}
+
+.scrabbletext {
+  padding-left: 3%;
+  padding-left: 3%;
+}
+
+.card {
+  width: 40%;
+  height: auto;
+
+  background-color: #1c1c25;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.writing .card {
+  width: 50%;
+}
+
+.fourthpage {
+  padding-top: 2%;
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.web {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+#webcard {
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+#mechcard {
+  margin-bottom: 5%;
+}
+
+#embeddedcard {
+  margin-left: 8%;
+  margin-right: 5%;
+}
+.mech {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.embedded {
+  width: 75%;
+  margin-bottom: 20px;
+}
+.app {
+  width: 64%;
+  margin-bottom: 20px;
+}
+
+.memberkic {
+  text-align: center;
+  font-size: px;
+}
+
+.buttton {
+  width: 100px;
+  height: auto;
+
+  text-align: center;
+
+  display: block;
+  border-radius: 10px;
+  padding: 7px 7px 7px 7px;
+}
+
+.writing .buttton {
+  width: 150px;
+}
+
+#kapp {
+  background-color: pink;
+}
+
+#kweb {
+  background-color: #5f9ea0;
+}
+
+#kmech {
+  background-color: gray;
+}
+
+#kembedded {
+  background-color: green;
+}
+
+.article {
+  width: 70%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#karticle {
+  background-color: #5f9ea0;
+}
+
+.article {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+#butterfly {
+  width: 20%;
+  float: right;
+  margin-right: 0.75%;
+  margin-top: -10%;
+  overflow: hidden;
+}
+
+.contactform {
+  margin-top: 20%;
+  background-color: #1c1c25;
+  width: 70%;
+  margin-left: 5%;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 601px) {
+  header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .myname {
+    font-size: 100px;
+  }
+  .tagline {
+    font-size: 30px;
+  }
+
+  .secondpage {
+    margin-left: 10%;
+    padding-top: 20%;
+    width: 75%;
+  }
+  .myimage img {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 120px;
+    border-radius: 7px;
+  }
+
+  .aboutme {
+    text-align: justify;
+    font-size: 80px;
+  }
+
+  .abtmetext {
+    font-size: 30px;
+  }
+  .thirdpage {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    padding-top: 200px;
+  }
+  .thirdpage img {
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 14px;
+    margin-left: 5%;
+  }
+  .pblstud {
+    font-size: 80px;
+    color: powderblue;
+  }
+  .projdesc {
+    text-align: justify;
+    font-size: 30px;
+  }
+
+  .lastpage {
+    padding-top: 100px;
+    margin-left: 20%;
+  }
+
+  .contactimg {
+    width: 17%;
+    border-radius: 20px;
+    float: left;
+    margin-right: 5%;
+  }
+
+  .contact {
+    font-size: 25px;
+    padding-top: 5%;
+  }
+
+  .textcontact {
+    color: cadetblue;
+    font-size: 25px;
+  }
+
+  .textaddress {
+    color: rgb(218, 243, 127);
+    font-size: 25px;
+  }
+
+  .socialmedia {
+    margin-top: 20%;
+    margin-left: 5%;
+    color: teal;
+    font-size: 30px;
+  }
+
+  .github {
+    margin-left: 2%;
+  }
+
+  .explorer {
+    font-size: 50px;
+    margin-left: 200px;
+    margin-bottom: 5%;
+    color: paleturquoise;
+  }
+  .writing {
+    margin-left: 200px;
+    margin-top: 8%;
+  }
+
+  .writer {
+    font-size: 50px;
+    color: paleturquoise;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    background-color: pink;
+  }
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .firstpage {
+    padding-top: 25%;
+  }
+  .myname {
+    font-size: 40px;
+  }
+  .tagline {
+    font-size: 18px;
+  }
+
+  .secondpage {
+    margin-top: 50px;
+  }
+
+  .myimage img {
+    width: 60%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+  }
+
+  .aboutme {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .abtmetext {
+    font-size: 17px;
+  }
+  .thirdpage {
+    margin-top: 0px;
+  }
+
+  .thirdpage img {
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+  }
+
+  .pblstud {
+    font-size: 30px;
+  }
+  .projdesc {
+    font-size: 17px;
+  }
+
+  .writing {
+    margin-left: 2%;
+    margin-top: 8%;
+  }
+
+  .writer {
+    font-size: 25px;
+  }
+
+  .explorer {
+    font-size: 25px;
+  }
+  .lastpage {
+    margin-top: 20%;
+  }
+
+  .contactimg {
+    width: 20%;
+    border-radius: 20px;
+    float: left;
+    margin-right: 5%;
+  }
+
+  .contact {
+    font-size: 15px;
+  }
+
+  .textcontact {
+    color: cadetblue;
+    font-size: 15px;
+  }
+
+  .textaddress {
+    color: rgb(218, 243, 127);
+    font-size: 15px;
+  }
+
+  .socialmedia {
+    margin-top: 20%;
+    margin-left: 2%;
+    color: teal;
+    font-size: 15px;
+  }
+
+  .socialmedia img {
+    width: 25%;
+  }
+
+  .github {
+    margin-left: 2%;
+  }
+}
